@@ -1,0 +1,3 @@
+require(["./component/comp"], function() {
+
+});

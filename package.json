@@ -1,0 +1,22 @@
+{
+  "name": "playroom",
+  "version": "0.0.0",
+  "description": "Place to test out new stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kentandersen/playroom.git"
+  },
+  "author": "Kent Andersen <kentareandersen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kentandersen/playroom/issues"
+  },
+  "homepage": "https://github.com/kentandersen/playroom",
+  "dependencies": {
+    "requirejs": "~2.1.11"
+  }
+}

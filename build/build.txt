@@ -1,0 +1,5 @@
+
+app/main.js
+----------------
+component/comp.js
+app/main.js
