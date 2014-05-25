@@ -1,1 +1,0 @@
-require(["./component/comp"],function(){});
