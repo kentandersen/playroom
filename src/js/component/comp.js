@@ -1,3 +1,3 @@
 define(function(require) {
-    alert("ue?");
+    console.log("ue?");
 });
