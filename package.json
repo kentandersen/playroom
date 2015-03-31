@@ -8,17 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kentandersen/playroom.git"
+    "url": "https://github.com/kentandersen/playroom.git"
   },
   "author": "Kent Andersen <kentareandersen@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kentandersen/playroom/issues"
   },
-  "homepage": "https://github.com/kentandersen/playroom",
-  "dependencies": {
-    "requirejs": "~2.1.11",
-    "csso": "~1.3.11",
-    "less": "~1.7.0"
-  }
+  "homepage": "https://github.com/kentandersen/playroom"
 }
