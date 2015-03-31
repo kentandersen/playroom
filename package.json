@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/kentandersen/playroom/issues"
   },
-  "homepage": "https://github.com/kentandersen/playroom"
+  "homepage": "https://github.com/kentandersen/playroom",
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "vinyl-transform": "^1.0.0"
+  }
 }
