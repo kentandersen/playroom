@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>dom ready</title>
+</head>
+<script type="text/javascript">
+  console.time("content loaded")
+  document.addEventListener("DOMContentLoaded", function(event) {
+    console.timeEnd("content loaded")
+  });
+</script>
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.js" type="text/javascript" async></script>
+<body>
+
+</body>
+</html>
