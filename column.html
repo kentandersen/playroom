@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>column test</title>
+</head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript">
+  document.createElement("main");
+</script>
+
+<style type="text/css">
+  body {
+    font-family: Helvetica;
+
+    padding: 40px;
+    margin: 0 auto;
+
+    background: #eee;
+  }
+
+  .main {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 2%;
+
+    -moz-column-count: 3;
+    -moz-column-gap: 2%;
+
+    column-count: 3;
+    column-gap: 2%;
+
+  }
+
+  .main > div {
+    display: inline-block;
+    margin-bottom: 20px;
+
+    background: #fff;
+    width: 100%;
+  }
+
+  div > .content {
+    margin: 20px;
+  }
+
+  div > img {
+    width: 100%;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding: 20px;
+    }
+
+    .main {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+    }
+  }
+
+  @media (max-width: 550px) {
+    body {
+      padding: 10px;
+    }
+
+    .main {
+      -webkit-column-count: auto;
+      -moz-column-count: auto;
+      column-count: auto;
+    }
+  }
+
+
+  /*ie hacks*/
+  .main {
+    margin: 0 -1%\9;
+    overflow: hidden\9;
+  }
+
+  .main > div {
+    float: left\9;
+    width: 31.333333333%\9;
+    margin-left: 1%\9;
+    margin-right: 1%\9;
+  }
+
+  .main > div.ie-hack-3rd {
+    clear: left\9;
+  }
+</style>
+
+
+<body>
+
+  <div class="main">
+    <div class="ie-hack-3rd">
+      <img src="http://www.kunnskapssenteret.no/forsiden/_image/199799/label/medium.jpeg?_encoded=2f66666666666678302f30382f3b29323135286874646977656c616373&_ts=1508062c7b3">
+
+      <div class="content">
+        Alternativ til panel og c-panel-2
+        Kan brukes med og uten bakgrunnsfarge. Toggle med klassen panel-transparent
+        Finnes også liten variant. Toggle med klassen panel-sm
+      </div>
+    </div>
+
+    <div>
+      <img src="http://www.kunnskapssenteret.no/forsiden/_image/196517/label/medium.jpeg?_encoded=2f66666666666678302f30382f3b29323135286874646977656c616373&_ts=14fb82ab736">
+
+      <div class="content">
+        Hvordan ta i bruk prosedyrer
+        Pasientene peker på flere områder som kan bli bedre: Syv av ti (71 prosent) svarer at de ikke har fått tilstrekkelig informasjon om
+      </div>
+    </div>
+
+    <div>
+      <img src="http://www.kunnskapssenteret.no/forsiden/_image/194367/label/medium.jpeg?_encoded=2f66666666666678302f30382f3b29323135286874646977656c616373&_ts=14c55449d1f">
+
+      <div class="content">
+        Pasientene <a href="#">peker på</a> flere områder som kan bli bedre: Syv av ti (71 prosent) svarer at de ikke har fått tilstrekkelig informasjon om de behandlingsmulighetene som finnes. Videre opplever 60 prosent at de «ikke i det hele tatt».
+      </div>
+    </div>
+
+    <div class="ie-hack-3rd">
+      <img src="http://www.kunnskapssenteret.no/forsiden/_image/195805/label/medium.jpeg?_encoded=2f66666666666678302f30382f3b29323135286874646977656c616373&_ts=14e43589026">
+
+      <div class="content">
+        <h2>Nye og oppdaterte prosedyrer</h2>
+        <ul>
+            <li>
+                <a href="#">Antitrombosestrømper - bruk etter Aorta Coronar Bypass (ACB) operasjon</a>
+            </li>
+
+            <li>
+                <a href="#">Diabetes i sykehjem - diagnostikk</a>
+            </li>
+
+            <li>
+                <a href="#">Flere...</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <img src="http://www.kunnskapssenteret.no/forsiden/_image/195752/label/medium.jpeg?_encoded=2f66666666666678302f30382f3b29323135286874646977656c616373&_ts=14e2ea6dc20">
+
+      <div class="content">
+        <h2>Hvordan ta i bruk prosedyrer</h2>
+        <p>
+            Pasientene peker på flere områder som kan bli bedre: Syv av ti (71 prosent) svarer at de ikke har fått tilstrekkelig informasjon om de behandlingsmulighetene som finnes. Videre opplever 60 prosent at de «ikke i det hele tatt».
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <img src="http://www.kunnskapssenteret.no/forsiden/_image/196455/label/medium.jpeg?_encoded=2f66666666666678302f30382f3b29323135286874646977656c616373&_ts=14fac308f8a">
+
+      <div class="content">
+        <h2>Hvordan ta i bruk prosedyrer</h2>
+        <p>
+            Pasientene peker på flere områder som kan bli bedre: Syv av ti (71 prosent) svarer at de ikke har fått tilstrekkelig informasjon om de behandlingsmulighetene som finnes. Videre opplever 60 prosent at de «ikke i det hele tatt».
+        </p>
+      </div>
+    </div>
+
+    <div class="ie-hack-3rd">
+      <img src="http://www.kunnskapssenteret.no/forsiden/_image/196684/label/medium.jpeg?_encoded=2f66666666666678302f30382f3b29323135286874646977656c616373&_ts=150004e2f36">
+
+      <div class="content">
+        Alternativ til panel og c-panel-2
+        Kan brukes med og uten bakgrunnsfarge. Toggle med klassen panel-transparent
+        Finnes også liten variant. Toggle med klassen panel-sm
+      </div>
+    </div>
+    <div>
+      <img src="http://www.kunnskapssenteret.no/forsiden/_image/193552/label/medium.jpeg?_encoded=2f66666666666678302f30382f3b29323135286874646977656c616373&_ts=14b73916f85">
+      <div class="content">
+        Hvordan ta i bruk prosedyrer
+        Pasientene peker på flere områder som kan bli bedre: Syv av ti (71 prosent) svarer at de ikke har fått tilstrekkelig informasjon om
+      </div>
+    </div>
+
+    <div>
+      <div class="content">
+        Pasientene <a href="#">peker på</a> flere områder som kan bli bedre: Syv av ti (71 prosent) svarer at de ikke har fått tilstrekkelig informasjon om de behandlingsmulighetene som finnes. Videre opplever 60 prosent at de «ikke i det hele tatt»
+      </div>
+    </div>
+
+    <div class="ie-hack-3rd">
+      <div class="content">
+        <h2>Nye og oppdaterte prosedyrer</h2>
+        <ul>
+            <li>
+                <a href="#">Antitrombosestrømper - bruk etter Aorta Coronar Bypass (ACB) operasjon</a>
+            </li>
+
+            <li>
+                <a href="#">Diabetes i sykehjem - diagnostikk</a>
+            </li>
+
+            <li>
+                <a href="#">Flere...</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div class="content">
+        <h2>Hvordan ta i bruk prosedyrer</h2>
+        <p>
+            Pasientene peker på flere områder som kan bli bedre: Syv av ti (71 prosent) svarer at de ikke har fått tilstrekkelig informasjon om de behandlingsmulighetene som finnes. Videre opplever 60 prosent at de «ikke i det hele tatt».
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <div class="content">
+        <h2>Hvordan ta i bruk prosedyrer</h2>
+        <p>
+            Pasientene peker på flere områder som kan bli bedre: Syv av ti (71 prosent) svarer at de ikke har fått tilstrekkelig informasjon om de behandlingsmulighetene som finnes. Videre opplever 60 prosent at de «ikke i det hele tatt».
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
